@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36127.28 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{D888515C-EB84-46E9-9298-0F1976135E4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HospitalManagementSystem(HMS).AuthApi", "HospitalManagementSystem(HMS).AuthApi\HospitalManagementSystem(HMS).AuthApi.csproj", "{12F2C5A1-3778-4573-BB80-544A5DBDD8CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HospitalManagementSystem(HMS).AppApi", "HospitalManagementSystem(HMS).AppApi\HospitalManagementSystem(HMS).AppApi.csproj", "{74075FC3-F9DB-40DA-8622-3CBB39DBB328}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HospitalManagementSystem(HMS).DB", "HospitalManagementSystem(HMS).DB\HospitalManagementSystem(HMS).DB.csproj", "{6A1591B0-73F2-4B88-B2EE-6940CA01544A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HospitalManagementSystem(HMS).BL", "HospitalManagementSystem(HMS).BL\HospitalManagementSystem(HMS).BL.csproj", "{7F4060DF-C63E-42C3-A139-B4D874C036BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HospitalManagementSystem(HMS).Dtos", "HospitalManagementSystem(HMS).Dtos\HospitalManagementSystem(HMS).Dtos.csproj", "{CFE576D7-5FA2-4EBB-A345-12943482C73A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12F2C5A1-3778-4573-BB80-544A5DBDD8CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12F2C5A1-3778-4573-BB80-544A5DBDD8CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12F2C5A1-3778-4573-BB80-544A5DBDD8CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12F2C5A1-3778-4573-BB80-544A5DBDD8CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74075FC3-F9DB-40DA-8622-3CBB39DBB328}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74075FC3-F9DB-40DA-8622-3CBB39DBB328}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74075FC3-F9DB-40DA-8622-3CBB39DBB328}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74075FC3-F9DB-40DA-8622-3CBB39DBB328}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A1591B0-73F2-4B88-B2EE-6940CA01544A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A1591B0-73F2-4B88-B2EE-6940CA01544A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A1591B0-73F2-4B88-B2EE-6940CA01544A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A1591B0-73F2-4B88-B2EE-6940CA01544A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F4060DF-C63E-42C3-A139-B4D874C036BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F4060DF-C63E-42C3-A139-B4D874C036BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F4060DF-C63E-42C3-A139-B4D874C036BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F4060DF-C63E-42C3-A139-B4D874C036BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFE576D7-5FA2-4EBB-A345-12943482C73A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFE576D7-5FA2-4EBB-A345-12943482C73A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFE576D7-5FA2-4EBB-A345-12943482C73A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFE576D7-5FA2-4EBB-A345-12943482C73A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{12F2C5A1-3778-4573-BB80-544A5DBDD8CE} = {D888515C-EB84-46E9-9298-0F1976135E4F}
+		{74075FC3-F9DB-40DA-8622-3CBB39DBB328} = {D888515C-EB84-46E9-9298-0F1976135E4F}
+		{6A1591B0-73F2-4B88-B2EE-6940CA01544A} = {D888515C-EB84-46E9-9298-0F1976135E4F}
+		{7F4060DF-C63E-42C3-A139-B4D874C036BD} = {D888515C-EB84-46E9-9298-0F1976135E4F}
+		{CFE576D7-5FA2-4EBB-A345-12943482C73A} = {D888515C-EB84-46E9-9298-0F1976135E4F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BA6CB9FE-F87F-4697-8E18-6C808F25A274}
+	EndGlobalSection
+EndGlobal
